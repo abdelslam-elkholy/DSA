@@ -21,7 +21,12 @@ const reverseString2 = (str) => {
   return str.split("").reverse().join("");
 };
 
-const reverseString3 = (str) => [...str].reverse.toString();
+const reverseString3 = (str) => [...str].reverse.join("");
+
+const reverseString = (str) => {
+  let reversed = "";
+  for (let char of str) reversed = char + reversed;
+};
 
 console.log(reverseString1(myString));
 console.log(reverseString1(22));
@@ -32,15 +37,7 @@ console.log(reverseString1(" "));
 console.log("/////////////////////////////////////////////////");
 
 console.log(reverseString2(myString));
-console.log(reverseString2(22));
-console.log(reverseString2("22"));
-console.log(reverseString2(" i love 333"));
-console.log(reverseString2(" "));
 
 console.log("/////////////////////////////////////////////////");
 
-console.log(reverseString3(myString));
-console.log(reverseString3(22));
-console.log(reverseString3("22"));
-console.log(reverseString3(" i love 333"));
-console.log(reverseString3(" "));
+// console.log(reverseString3(myString));
