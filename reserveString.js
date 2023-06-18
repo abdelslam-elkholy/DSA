@@ -3,7 +3,7 @@
 let myString = "hey i'm abdelslam elkholy";
 let myReservedStr;
 
-const reserveString1 = (str) => {
+const reverseString1 = (str) => {
   if (str && str.length > 1 && isNaN(str)) {
     const backWards = [];
 
@@ -23,19 +23,24 @@ const reverseString2 = (str) => {
 
 const reverseString3 = (str) => [...str].reverse.toString();
 
-console.log(reserveString1(myString));
-console.log(reserveString1(22));
-console.log(reserveString1("22"));
-console.log(reserveString1(" i love 333"));
-console.log(reserveString1(" "));
+console.log(reverseString1(myString));
+console.log(reverseString1(22));
+console.log(reverseString1("22"));
+console.log(reverseString1(" i love 333"));
+console.log(reverseString1(" "));
 
-console.log(reserveString1(myString));
-console.log(reserveString1(22));
-console.log(reserveString1("22"));
-console.log(reserveString1(" i love 333"));
-console.log(reserveString1(" "));
-console.log(reserveString1(myString));
-console.log(reserveString1(22));
-console.log(reserveString1("22"));
-console.log(reserveString1(" i love 333"));
-console.log(reserveString1(" "));
+console.log("/////////////////////////////////////////////////");
+
+console.log(reverseString2(myString));
+console.log(reverseString2(22));
+console.log(reverseString2("22"));
+console.log(reverseString2(" i love 333"));
+console.log(reverseString2(" "));
+
+console.log("/////////////////////////////////////////////////");
+
+console.log(reverseString3(myString));
+console.log(reverseString3(22));
+console.log(reverseString3("22"));
+console.log(reverseString3(" i love 333"));
+console.log(reverseString3(" "));
