@@ -25,3 +25,6 @@ class MyArray {
     return LastItem;
   }
 }
+
+const newArray = new MyArray();
+console.log(newArray);
