@@ -1,5 +1,8 @@
 "use strict";
 
 class MyArray {
-  constructor() {}
+  constructor() {
+    this.length = 0;
+    this.data = {};
+  }
 }
