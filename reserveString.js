@@ -6,8 +6,11 @@ let myReservedStr;
 const reserveString1 = (str) => {
   if (str && str.length > 1 && isNaN(str)) {
     const backWards = [];
-    for (let i = str.length - 1; i >= 0; i++) {}
-    // console.log(myReservedStr);
+    for (let i = str.length - 1; i >= 0; i++) {
+      backWards.push(str[i]);
+    }
+
+    return backWards.join[""];
   } else {
     console.log("Not valid string");
   }
