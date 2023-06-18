@@ -1,9 +1,11 @@
 "use strict";
 
-let myString = "hey im abdelslam elkholy";
+let myString = "hey i'm abdelslam elkholy";
 let myReservedStr;
+
 const reserveString = (str) => {
-  myReservedStr = str.split().reverse().join();
+  myReservedStr = str.split("").reverse().join(" ");
+  console.log(myReservedStr);
 };
 
-console.log(myReservedStr);
+reserveString(myString);
