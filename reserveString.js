@@ -1,9 +1,9 @@
 "use strict";
 
-let myString = prompt("enter your string here then okay: ");
+let myString = "hey im abdelslam elkholy";
 let myReservedStr;
 const reserveString = (str) => {
   myReservedStr = str.split().reverse().join();
 };
 
-alert(myReservedStr);
+console.log(myReservedStr);
