@@ -37,3 +37,6 @@ console.log(newArray);
 
 newArray.push("!");
 console.log(newArray);
+
+newArray.pop();
+console.log(newArray);
