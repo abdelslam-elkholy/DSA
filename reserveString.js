@@ -19,8 +19,11 @@ const reserveString1 = (str) => {
 const reverseString2 = (str) => {
   return str.split("").reverse().join("");
 };
-reserveString1(myString);
-reserveString1(22);
-reserveString1("22");
-reserveString1(" i love 333");
-reserveString1(" ");
+
+const reverseString3 = (str) => [...str].reverse.toString();
+
+console.log(reserveString1(myString));
+console.log(reserveString1(22));
+console.log(reserveString1("22"));
+console.log(reserveString1(" i love 333"));
+console.log(reserveString1(" "));
