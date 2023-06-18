@@ -5,4 +5,9 @@ class MyArray {
     this.length = 0;
     this.data = {};
   }
+
+  get(index) {
+    const item = this.data[index];
+    return item;
+  }
 }
