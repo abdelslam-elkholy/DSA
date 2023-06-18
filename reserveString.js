@@ -3,7 +3,7 @@
 let myString = "hey i'm abdelslam elkholy";
 let myReservedStr;
 
-const reserveString = (str) => {
+const reserveString1 = (str) => {
   if (str && str.length > 1 && isNaN(str)) {
     myReservedStr = str.split("").reverse().join("");
     console.log(myReservedStr);
@@ -12,8 +12,8 @@ const reserveString = (str) => {
   }
 };
 
-reserveString(myString);
-reserveString(22);
-reserveString("22");
-reserveString(" i love 333");
-reserveString(" ");
+reserveString1(myString);
+reserveString1(22);
+reserveString1("22");
+reserveString1(" i love 333");
+reserveString1(" ");
