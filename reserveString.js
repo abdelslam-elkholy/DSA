@@ -16,7 +16,9 @@ const reserveString1 = (str) => {
   }
 };
 
-const reverseString2 = (str) => {};
+const reverseString2 = (str) => {
+  return str.split("").reverse().join("");
+};
 reserveString1(myString);
 reserveString1(22);
 reserveString1("22");
