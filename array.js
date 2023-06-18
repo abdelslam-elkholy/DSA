@@ -28,3 +28,12 @@ class MyArray {
 
 const newArray = new MyArray();
 console.log(newArray);
+
+newArray.push("hey");
+console.log(newArray);
+
+newArray.push("you");
+console.log(newArray);
+
+newArray.push("!");
+console.log(newArray);
