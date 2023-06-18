@@ -10,4 +10,10 @@ class MyArray {
     const item = this.data[index];
     return item;
   }
+
+  push(item) {
+    this.data[this.length] = item;
+    this.length++;
+    return this.length;
+  }
 }
